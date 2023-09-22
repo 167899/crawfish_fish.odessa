@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Restoran/static/css/main.7acaea2f.css",
-    "main.js": "/Restoran/static/js/main.07d3183d.js",
-    "index.html": "/Restoran/index.html",
-    "main.7acaea2f.css.map": "/Restoran/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Restoran/static/js/main.07d3183d.js.map"
+    "main.css": "/Crawfish_fish.odessa/static/css/main.7acaea2f.css",
+    "main.js": "/Crawfish_fish.odessa/static/js/main.07d3183d.js",
+    "index.html": "/Crawfish_fish.odessa/index.html",
+    "main.7acaea2f.css.map": "/Crawfish_fish.odessa/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Crawfish_fish.odessa/static/js/main.07d3183d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
