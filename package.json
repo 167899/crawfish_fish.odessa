@@ -1,8 +1,8 @@
 {
-  "name": "c",
+  "name": "crawfish_fish",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://167899.github.io/Crawfish_fish.odessa/",
+  "homepage": "https://167899.github.io/crawfish_fish.odessa/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
