@@ -1,0 +1,5 @@
+.header{
+    display: flex;
+    background-color: #7c7e8b;
+    box-shadow: 0 4px 10px hsl(200deg 3% 44% / 60%);
+  }
