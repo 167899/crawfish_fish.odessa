@@ -1,15 +1,15 @@
-.productList{
-    font-size: 24px;
-    line-height: 32px;
-    }
-    .productList li{
-    display: inline-block;
-    margin: 7px;
-    }
-    .productList li a{
-    text-decoration: none;
-    }
+.productList {
+  font-size: 24px;
+  line-height: 32px;
+}
+.productList li {
+  display: inline-block;
+  margin: 7px;
+}
+.productList li a {
+  text-decoration: none;
+}
 
-    .addBtn{
-        font-size: 10px;
-    }
+.addBtn {
+  font-size: 10px;
+}
