@@ -19,7 +19,7 @@ export const App = () => {
           <Route path="*" element={<Home />} /> 
         </Route>
       </Routes>
-     <Button></Button>
+     <Button name='Go back' className={css.appButton}></Button>
     </div>
   );
 };

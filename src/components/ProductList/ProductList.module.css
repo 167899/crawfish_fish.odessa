@@ -9,3 +9,7 @@
     .productList li a{
     text-decoration: none;
     }
+
+    .addBtn{
+        font-size: 10px;
+    }
