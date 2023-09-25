@@ -8,7 +8,9 @@ const Layout = () => {
     <div className={css.layout}>
       <Header />
       <Suspense fallback={<div>Loading page...</div>}>
-        <Outlet />
+        <main>
+          <Outlet />
+        </main>
       </Suspense>
     </div>
   );

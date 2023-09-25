@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import Layout from 'pages/Layout/Layout';
 import { Home } from 'pages/Home/Home';
-import { Button } from './Button/Button';
 import { Cart } from 'pages/Cart/Cart';
+
 import css from './App.module.css';
 
 export const App = () => {
@@ -15,7 +15,6 @@ export const App = () => {
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
-      <Button name="Go back" className={css.appButton}></Button>
     </div>
   );
 };
