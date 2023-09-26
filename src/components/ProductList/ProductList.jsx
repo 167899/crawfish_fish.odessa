@@ -3,7 +3,7 @@ import css from './ProductList.module.css';
 
 export const ProductList = ({ products }) => {
   return (
-    <section>
+    <section className={css.products}>
       <h2>Products</h2>
       <ul className={css.productList}>
         {products.map(product => (
