@@ -1,10 +1,12 @@
 .productList {
   font-size: 24px;
   line-height: 32px;
+  margin-bottom: 0;
 }
 .productList li {
   display: inline-block;
   margin: 7px;
+
 }
 .productList li a {
   text-decoration: none;
