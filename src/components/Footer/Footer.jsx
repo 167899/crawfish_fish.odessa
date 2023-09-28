@@ -28,7 +28,7 @@ export const Footer = () => {
           </address>
          
         </div> 
-        <div><img width='150px' height='170px' src={logo2} alt='logo' className={css.logo2}/></div>
+        <div><img width='130px' height='147px' src={logo2} alt='logo' className={css.logo2}/></div>
       </div>
     </footer>
   );
