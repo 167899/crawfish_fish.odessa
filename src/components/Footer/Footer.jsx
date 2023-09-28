@@ -1,4 +1,5 @@
 import css from './Footer.module.css';
+import logo2 from './logo2.png'
 export const Footer = () => {
   return (
     <footer className={css.footer}>
@@ -25,7 +26,9 @@ export const Footer = () => {
               </li>
             </ul>
           </address>
-        </div>
+         
+        </div> 
+        <div><img width='150px' height='170px' src={logo2} alt='logo' className={css.logo2}/></div>
       </div>
     </footer>
   );

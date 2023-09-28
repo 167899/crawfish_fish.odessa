@@ -1,9 +1,10 @@
 .header{
-    display: flex;
     background-color:  #2f303a;
     box-shadow: 0 4px 10px hsl(200deg 3% 44% / 60%);
   }
   .conteiner {
+    display: flex;
+    align-items: center;
     margin: 0 auto;
     width: 1200px;
   }

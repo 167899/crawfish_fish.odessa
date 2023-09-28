@@ -1,13 +1,12 @@
-.nav{
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  .nav a{
-    margin-left: 56px;
-    font-size: 26px;
-    line-height: 48px;
-    color: rgb(255, 255, 255);
-        text-decoration: none;
-  }
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav a {
+  font-size: 26px;
+  line-height: 48px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 20px 0 20px 56px;
+}

@@ -11,6 +11,8 @@
 .conteiner {
   margin: 0 auto;
   width: 1200px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .address_title {
