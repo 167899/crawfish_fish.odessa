@@ -3,14 +3,25 @@
 }
 
 .productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
   font-size: 24px;
   line-height: 32px;
-  margin-bottom: 0;
+  padding:0 0 94px 0;
+  margin: 0;
 }
 .productList li {
 
   display: inline-block;
-  margin: 7px;
+  margin: 15px;
+  width: 370px;
+}
+.imageConteiner{
+  width: 370px;
+  height: 300px;
+  overflow: hidden;
 }
 .productList li a {
   text-decoration: none;
