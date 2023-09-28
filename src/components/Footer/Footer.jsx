@@ -1,7 +1,7 @@
 import css from './Footer.module.css';
 export const Footer = () => {
   return (
-    <section className={css.footer}>
+    <footer className={css.footer}>
       <div className={css.conteiner}>
         <div class={css.address_block}>
           <address>
@@ -27,6 +27,6 @@ export const Footer = () => {
           </address>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
