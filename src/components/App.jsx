@@ -2,9 +2,9 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from 'pages/Layout/Layout';
 import { Home } from 'pages/Home/Home';
 import { Cart } from 'pages/Cart/Cart';
-import { AboutUs } from 'pages/About us/AboutUs';
+import { AboutUs } from 'pages/AboutUs/AboutUs';
 import { Contacts } from 'pages/Contacts/Contacts';
-import { PaymentAndDelivery } from 'pages/Payment and delivery/PaymentAndDelivery';
+import { PaymentAndDelivery } from 'pages/PaymentAndDelivery/PaymentAndDelivery';
 
 import css from './App.module.css';
 

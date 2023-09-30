@@ -55,3 +55,58 @@
     color: #fff;
   }
 }
+
+.icon {
+  fill: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    fill: #fff;
+}
+}
+
+.footerTitle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--address-list-text-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.socialNetworks {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.socialNetworksItem {
+  margin-right: 10px;
+  display: block;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socialNetworksLink {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.footerLogoBlock{
+  width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+

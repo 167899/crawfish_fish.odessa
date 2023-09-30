@@ -15,7 +15,15 @@ export const NavItems = () => {
     <>
       <nav className={css.nav}>
         {navItems.map(({ href, text }) => (
-          <NavLink to={href} key={text}>
+          <NavLink
+            style={({ isActive, isPending }) => {
+              return {
+                color: isActive && 'rgba(255, 255, 255)',
+              };
+            }}
+            to={href}
+            key={text}
+          >
             {text}
           </NavLink>
         ))}

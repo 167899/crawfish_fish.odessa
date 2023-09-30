@@ -1,5 +1,7 @@
+import { SvgSelector } from 'components/Icons/Icons';
 import css from './Footer.module.css';
-import logo2 from './logo2.png'
+import logo2 from './logo2.png';
+
 export const Footer = () => {
   return (
     <footer className={css.footer}>
@@ -26,9 +28,46 @@ export const Footer = () => {
               </li>
             </ul>
           </address>
-         
-        </div> 
-        <div><img width='130px' height='147px' src={logo2} alt='logo' className={css.logo2}/></div>
+        </div>
+        <div className={css.socialBetworkBlock}>
+          <h2 className={css.footerTitle}>присоединяйтесь</h2>
+          <ul className={css.socialNetworks}>
+            <li className={css.socialNetworksItem}>
+              <a
+                href="https://instagram.com/crawfish_fish.odessa?igshid=NzZlODBkYWE4Ng=="
+                className={css.socialNetworksLink}
+              >
+                <SvgSelector id={'instagram'}></SvgSelector>
+              </a>
+            </li>
+            <li className={css.socialNetworksItem}>
+              <a
+              
+                href="https://www.facebook.com/profile.php?id=100075881057105"
+                className={css.socialNetworksLink}
+              >
+                <SvgSelector id={'facebook'}></SvgSelector>
+              </a>
+            </li>
+            <li className={css.socialNetworksItem}>
+              <a
+                href="invite.viber.com/?g2=AQB0RGxUcpvBs02WGJT6X%2FYCRk4e4pZ50b%2Bg1hgXzpfqkkXNiqDwCw94vqdMu00D"
+                className={css.socialNetworksLink}
+              >
+                <SvgSelector id={'viber'}></SvgSelector>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className={css.footerLogoBlock}>
+          <img
+            width="130px"
+            height="147px"
+            src={logo2}
+            alt="logo"
+            className={css.logo2}
+          />
+        </div>
       </div>
     </footer>
   );
