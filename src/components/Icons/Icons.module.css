@@ -2,3 +2,10 @@
   fill: #fff;
   width: 22px;
 }
+.boorger {
+  fill: #fff;
+  width: 42px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}

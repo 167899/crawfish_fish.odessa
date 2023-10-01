@@ -1,26 +1,52 @@
 .header {
   background-color: #2f303a;
   box-shadow: 0 4px 10px hsl(200deg 3% 44% / 60%);
-  
+  @media screen and (min-width: 768px) {
+    padding-top: 7px;
+  }
 }
 
 .containerHeaderFlex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+  }
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 .phoneNumber {
-  background-color: #C7181B;
+  background-color: #c7181b;
   border-radius: 20px;
   padding: 0 10px;
   color: #fff;
+  margin-bottom: 30px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
-.phoneNumberLink{
+.phoneNumberLink {
   font-size: 21px;
   line-height: 1.71;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
   padding: 0 5px;
+
   font-style: normal;
   transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
