@@ -9,15 +9,19 @@ export const ProductList = ({ products }) => {
         {products.map(product => (
           <li key={product.name}>
             <div className={css.imageConteiner}>
-            <img width='100%' height='auto' src={product.image} alt={product.name} />
+              <img
+                width="100%"
+                height="auto"
+                src={product.image}
+                alt={product.name}
+              />
             </div>
             <div className={css.textBlock}>
               <h3> {product.name} </h3>
-            <p>{product.detail}</p>
-            <p>{product.price} грн. за 100г</p>
-            <Button name={'Add to cart'} className={css.addBtn}></Button>
+              <p>{product.detail}</p>
+              <p>{product.price} грн. за 100г</p>
+              <Button name={'Add to cart'} className={css.addBtn}></Button>
             </div>
-            
           </li>
         ))}
       </ul>

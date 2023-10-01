@@ -7,43 +7,50 @@
     text-align: center;
   }
 }
+.containerRevers {
+  flex-direction: row;
 
-.conteiner {
-  margin: 0 auto;
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+    flex-direction: row-reverse;
+  }
 }
 
-.address_title {
+.addressTitle {
+  font-size: 14px;
+  line-height: 1.14;
   font-style: normal;
+  margin-bottom: 9px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.14;
+  }
 }
 .address {
   list-style: none;
   padding: 0;
 }
-.address_block {
-  margin-bottom: 60px;
-  font-size: 18px;
+.addressBlock {
+   font-size: 18px;
 
-  @media screen and (min-width: 768px) {
-    margin-bottom: 0;
-  }
-
-  @media screen and (min-width: 1200px) {
+   @media screen and (min-width: 1200px) {
     width: 400px;
   }
 }
 
-.address_item {
+.addressItem {
+  font-size: 14px;
   margin-bottom: 9px;
 
   &:last-child {
     margin-bottom: 0;
   }
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.14;
+  }
 }
 
-.address_link {
+.addressLink {
   line-height: 1.71;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -55,15 +62,19 @@
     color: #fff;
   }
 }
+.socialNetworkBlock {
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    width: 384px;
+    margin-bottom: 60px;
+  }
 
-.icon {
-  fill: rgba(255, 255, 255, 0.6);
-  &:hover,
-  &:focus {
-    fill: #fff;
+  @media screen and (min-width: 1200px) {
+    text-align: center;
+    width: 400px;
+    margin: 0px;
+  }
 }
-}
-
 .footerTitle {
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +106,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
@@ -104,9 +115,28 @@
   }
 }
 
-.footerLogoBlock{
-  width: 400px;
+.footerLogoBlock {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+
+    width: 383px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 400px;
+    justify-content: flex-end;
+    margin: 0px;
+  }
 }
 
+.icon {
+  fill: rgba(255, 255, 255, 0.6);
+  &:hover,
+  &:focus {
+    fill: #fff;
+  }
+}

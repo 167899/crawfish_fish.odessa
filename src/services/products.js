@@ -41,4 +41,20 @@ export const products = [
     offer: 'info with offer',
     image: 'https://sevrakoferma.ru/wp-content/uploads/2015/06/1272910107_raki2-e1435097525775.jpg',
   },
+  {
+    name: 'Product 7',
+    detail: 'Lorem ipsum dolor sit amet',
+    price: '99',
+    info: 'This is the latest and greatest product from Derp corp.',
+    offer: 'info with offer',
+    image: 'https://sevrakoferma.ru/wp-content/uploads/2015/06/1272910107_raki2-e1435097525775.jpg',
+  },
+  {
+    name: 'Product 8',
+    detail: 'Lorem ipsum dolor sit amet',
+    price: '99',
+    info: 'This is the latest and greatest product from Derp corp.',
+    offer: 'info with offer',
+    image: 'https://sevrakoferma.ru/wp-content/uploads/2015/06/1272910107_raki2-e1435097525775.jpg',
+  },
 ];
