@@ -55,7 +55,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    transform: translate(-75px, 25%);
+    transform: translate(-100px, 25%);
     top: 155px;
   }
   @media screen and (min-width: 1200px) {

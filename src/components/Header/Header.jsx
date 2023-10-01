@@ -5,7 +5,7 @@ import css from './Header.module.css';
 export const Header = () => {
   return (
     <header className={css.header}>
-      <div className="container containerFlex">
+      <div className={`container containerFlex ${css.containerHeaderFlex}`}>
         <div>
           <img
             width="73px"
@@ -16,6 +16,14 @@ export const Header = () => {
           />
         </div>
         <NavItems />
+        <div className={css.phoneNumber}>
+        <a className={css.phoneNumberLink} href="tel:+380660245006">
+                  <span>тел. </span>
+                  +38 066 024 50 06
+                </a>
+          {/* <p>тел. 066 024 50 06</p> */}
+        </div>
+        
       </div>
     </header>
   );
