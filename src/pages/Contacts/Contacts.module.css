@@ -1,0 +1,19 @@
+div.contacts {
+  padding: 50px 15px;
+}
+
+.contacts h3,
+.contacts h2 {
+  margin-bottom: 30px;
+  color: #212121;
+}
+.contacts p {
+  margin-bottom: 60px;
+  color: #757575;
+}
+
+.socialNetworksLink,
+.addressLink {
+  color: #757575;
+  font-weight: 500;
+}
