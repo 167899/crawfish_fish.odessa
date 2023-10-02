@@ -1,0 +1,17 @@
+div.paymentAndDelivery {
+  padding: 50px 15px;
+}
+
+.paymentAndDelivery h3,
+.paymentAndDelivery h2 {
+  margin-bottom: 30px;
+  color: #212121;
+}
+.paymentAndDelivery p {
+  margin-bottom: 60px;
+  color: #757575;
+}
+.phoneLink {
+  color: #757575;
+  font-weight: 500;
+}
