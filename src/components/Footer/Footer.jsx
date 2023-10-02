@@ -17,7 +17,7 @@ export const Footer = () => {
         </div>
 
         <div className={css.socialNetworkBlock}>
-          <h2 className={css.footerTitle}>присоединяйтесь</h2>
+          <h2 className={css.footerTitle}>приєднатися</h2>
           <ul className={css.socialNetworks}>
             <li className={css.socialNetworksItem}>
               <a

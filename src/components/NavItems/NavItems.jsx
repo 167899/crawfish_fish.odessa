@@ -3,11 +3,11 @@ import { NavLink } from 'react-router-dom';
 import css from './NavItems.module.css';
 
 const navItems = [
-  { href: '', text: 'Home' },
-  { href: 'about-us', text: 'About us' },
-  { href: 'contacts', text: 'Contacts' },
-  { href: 'payment-delivery', text: 'Payment and delivery' },
-  { href: 'cart', text: 'Cart' },
+  { href: '', text: 'Головна' },
+  { href: 'about-us', text: 'Про нас' },
+  { href: 'contacts', text: 'Контакти' },
+  { href: 'payment-delivery', text: 'Оплата та доставка' },
+  { href: 'cart', text: 'Корзина' },
 ];
 
 export const NavItems = () => {

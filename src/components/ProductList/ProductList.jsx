@@ -1,10 +1,10 @@
 import { Button } from 'components/Button/Button';
 import css from './ProductList.module.css';
 
-export const ProductList = ({ products }) => {
+export const ProductList = ({ products, sectionName }) => {
   return (
     <section className={css.products}>
-      <h2>Products</h2>
+      <h2>{sectionName}</h2>
       <ul className={css.productList}>
         {products.map(product => (
           <li key={product.name}>
@@ -19,8 +19,9 @@ export const ProductList = ({ products }) => {
             <div className={css.textBlock}>
               <h3> {product.name} </h3>
               <p>{product.detail}</p>
-              <p>{product.price} грн. за 100г</p>
-              <Button name={'Add to cart'} className={css.addBtn}></Button>
+              <p className={css.price}>{product.price} грн. за 100г
+              </p>
+              <Button name={'Замовити'} className={css.addBtn}></Button>
             </div>
           </li>
         ))}

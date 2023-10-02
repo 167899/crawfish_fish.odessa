@@ -1,7 +1,6 @@
-.products {
-  padding-top: 120px;
+.products h2{
+  margin-bottom: 35px;
 }
-
 .productList {
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +47,26 @@
 .productList li a {
   text-decoration: none;
 }
+.productList li h3{
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+margin-bottom: 4px;
+}
+.productList li .price {
+  color: #212121;
+  margin-bottom: 15px;
+  font-size: 16px;
 
+}
+.productList li p{
+  font-size: 14px;
+  line-height: 1.4;
+  color: #757575;
+  margin-bottom: 10px;
+}
 .addBtn {
   font-size: 10px;
 }

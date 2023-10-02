@@ -9,7 +9,7 @@
   background-size: cover;
   padding: 118px 0px;
   max-width: 1600px;
-  margin: 0 auto;
+  margin: 0 auto 120px auto;
 
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -48,7 +48,7 @@
   background-color: aliceblue;
   position: absolute;
   left: 50%;
-  top: 140px;
+  top: 160px;
   transform: translate(-95px, 25%);
 
   @media screen and (min-width: 768px) {
@@ -56,7 +56,7 @@
     height: 200px;
     border-radius: 50%;
     transform: translate(-100px, 25%);
-    top: 300px;
+    top: 148px;
   }
   @media screen and (min-width: 1200px) {
     width: 300px;

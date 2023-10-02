@@ -17,12 +17,14 @@ export const Header = () => {
           />
           <SvgSelector id={'boorger'}></SvgSelector>
         </div>
-        <NavItems />
-        <div className={css.phoneNumber}>
-          <a className={css.phoneNumberLink} href="tel:+380660245006">
-            <span>тел. </span>
-            +38 066 024 50 06
-          </a>
+        <div className={css.textBlock}>
+          <div className={css.phoneNumber}>
+            <a className={css.phoneNumberLink} href="tel:+380660245006">
+              <span>тел. </span>
+              +38 066 024 50 06
+            </a>
+          </div>{' '}
+          <NavItems />
         </div>
       </div>
     </header>
