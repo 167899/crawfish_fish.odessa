@@ -1,19 +1,18 @@
 import { SvgSelector } from 'components/Icons/Icons';
 import css from './Footer.module.css';
-import logo2 from './logo2.png';
+import { Link } from 'react-router-dom';
 
 export const Footer = () => {
   return (
     <footer className={css.footer}>
       <div className={`container containerFlex ${css.containerRevers}`}>
         <div className={css.footerLogoBlock}>
-          <img
-            width="130px"
-            height="147px"
-            src={logo2}
-            alt="logo"
-            className={css.logo2}
-          />
+          <Link to={''}>
+            <SvgSelector
+              className={'logoMinFooter'}
+              id={'logo-min'}
+            ></SvgSelector>
+          </Link>
         </div>
 
         <div className={css.socialNetworkBlock}>

@@ -16,7 +16,7 @@ export const NavItems = () => {
       <nav className={css.nav}>
         {navItems.map(({ href, text }) => (
           <NavLink
-            style={({ isActive, isPending }) => {
+            style={({ isActive }) => {
               return {
                 color: isActive && 'rgba(255, 255, 255)',
               };
