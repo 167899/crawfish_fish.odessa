@@ -9,14 +9,7 @@
 .containerHeaderFlex {
   display: flex;
   align-items: center;
-
-  @media screen and (max-width: 767px) {
-    justify-content: space-between;
-  }
-
-  @media screen and (min-width: 1200px) {
-    justify-content: space-between;
-  }
+  justify-content: space-between;
 }
 .iconContainer {
   display: flex;
@@ -44,10 +37,7 @@
   border-radius: 20px;
   padding: 0 10px;
   color: #fff;
-  /* margin-bottom: 30px; */
-  /* @media screen and (max-width: 767px) {
-    margin-bottom: 0;
-  } */
+ 
   @media screen and (min-width: 1200px) {
     margin-bottom: 0;
   }
