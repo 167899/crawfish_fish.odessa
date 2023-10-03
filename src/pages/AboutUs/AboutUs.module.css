@@ -2,6 +2,7 @@ div.aboutUsContainer{
   padding: 50px 15px;
 }
 
+.aboutUsContainer h2,
 .aboutUsContainer h3{
 margin-bottom: 30px;
 color: #212121;

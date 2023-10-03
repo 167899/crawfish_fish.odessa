@@ -2,7 +2,7 @@ import css from './AboutUs.module.css';
 export const AboutUs = () => {
   return (
     <div className={`container ${css.aboutUsContainer}`}>
-      <h3>Про нас</h3>
+      <h2>Про нас</h2>
       <p>
         Ласкаво просимо до нашого інтернет-магазину морепродуктів, живих раків
         та розливного пива! Ми - команда ентузіастів, яка дала собі завдання
