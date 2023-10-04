@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/crawfish_fish.odessa/static/css/main.51522c92.css",
-    "main.js": "/crawfish_fish.odessa/static/js/main.86f0af25.js",
+    "main.css": "/crawfish_fish.odessa/static/css/main.75617ab8.css",
+    "main.js": "/crawfish_fish.odessa/static/js/main.b2f8bcbc.js",
     "static/media/hero.jpg": "/crawfish_fish.odessa/static/media/hero.0b0e3ac07d0cea7c57e3.jpg",
     "static/media/logo.png": "/crawfish_fish.odessa/static/media/logo.645c16090b2bde52d66d.png",
     "index.html": "/crawfish_fish.odessa/index.html",
-    "main.51522c92.css.map": "/crawfish_fish.odessa/static/css/main.51522c92.css.map",
-    "main.86f0af25.js.map": "/crawfish_fish.odessa/static/js/main.86f0af25.js.map"
+    "main.75617ab8.css.map": "/crawfish_fish.odessa/static/css/main.75617ab8.css.map",
+    "main.b2f8bcbc.js.map": "/crawfish_fish.odessa/static/js/main.b2f8bcbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.51522c92.css",
-    "static/js/main.86f0af25.js"
+    "static/css/main.75617ab8.css",
+    "static/js/main.b2f8bcbc.js"
   ]
 }
