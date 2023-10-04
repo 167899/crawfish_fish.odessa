@@ -10,10 +10,10 @@ const navItems = [
   { href: 'cart', text: 'Корзина' },
 ];
 
-export const NavItems = () => {
+export const NavItems = ({ addClassName }) => {
   return (
     <>
-      <nav className={css.nav}>
+      <nav className={`${css.nav} ${css[addClassName]}`}>
         {navItems.map(({ href, text }) => (
           <NavLink
             style={({ isActive }) => {

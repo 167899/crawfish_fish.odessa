@@ -1,9 +1,24 @@
 import { NavItems } from 'components/NavItems/NavItems';
+import { Button } from 'components/Button/Button';
 import css from './Header.module.css';
 import { SvgSelector } from 'components/Icons/Icons';
 import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
 
 export const Header = () => {
+  const [elementClass, setElementClass] = useState('');
+  const [buttonSvgId, setbuttonSvgId] = useState('boorger');
+
+  const toggleClass = () => {
+    if (elementClass === '') {
+      setElementClass('navShow');
+      setbuttonSvgId('close');
+    } else {
+      setElementClass('');
+      setbuttonSvgId('boorger');
+    }
+
+  };
   return (
     <header className={css.header}>
       <div className={`container containerFlex ${css.containerHeaderFlex}`}>
@@ -14,7 +29,12 @@ export const Header = () => {
               id={'logo-min'}
             ></SvgSelector>
           </Link>
-          <SvgSelector id={'boorger'}></SvgSelector>
+          <Button 
+          onClick={toggleClass} 
+          name={<SvgSelector id={buttonSvgId}></SvgSelector>}
+          className={css.boorgerButton}>
+          </Button>
+          
         </div>
         <div className={css.textBlock}>
           <div className={css.phoneNumber}>
@@ -23,7 +43,7 @@ export const Header = () => {
               +38 066 024 50 06
             </a>
           </div>{' '}
-          <NavItems />
+          <NavItems addClassName={elementClass}/>
         </div>
       </div>
     </header>

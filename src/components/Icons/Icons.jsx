@@ -1,5 +1,5 @@
 import css from './Icons.module.css';
-export const SvgSelector = ({ id, className}) => {
+export const SvgSelector = ({ id, className }) => {
   switch (id) {
     case 'facebook':
       return (
@@ -52,9 +52,17 @@ export const SvgSelector = ({ id, className}) => {
           <rect width="80" height="10" rx="5" ry="5" x="10" y="60" />
         </svg>
       );
+    case 'close':
+      return (
+       'X'
+      );
     case 'logo-min':
       return (
-        <svg className={css[className]} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.48 457.68">
+        <svg
+          className={css[className]}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 420.48 457.68"
+        >
           <defs>
             <linearGradient
               id="a"
@@ -89,7 +97,7 @@ export const SvgSelector = ({ id, className}) => {
               <stop offset="1" stop-color="#c71a1c" />
             </linearGradient>
           </defs>
-          <g data-name=" 2" >
+          <g data-name=" 2">
             <g data-name="1">
               <path
                 fill="#C7181B"
