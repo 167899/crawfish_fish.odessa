@@ -10,12 +10,14 @@ const navItems = [
   { href: 'cart', text: 'Корзина' },
 ];
 
-export const NavItems = ({ addClassName }) => {
+export const NavItems = ({ onClick, addClassName }) => {
+
   return (
     <>
       <nav className={`${css.nav} ${css[addClassName]}`}>
         {navItems.map(({ href, text }) => (
           <NavLink
+          onClick={onClick}
             style={({ isActive }) => {
               return {
                 color: isActive && 'rgba(255, 255, 255)',

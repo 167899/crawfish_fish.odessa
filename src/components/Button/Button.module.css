@@ -23,12 +23,3 @@
 .button:focus {
   background-color: #2196f3;
 }
-
-.boorgerButton {
-  background-color: inherit;
-  line-height: 0;
-
-  @media screen and (min-width: 768px) {
-   display: none;
-  }
-}

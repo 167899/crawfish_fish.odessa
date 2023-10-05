@@ -46,6 +46,7 @@ export const SvgSelector = ({ id, className }) => {
           width="100"
           height="100"
           viewBox="0 0 100 100"
+          fill="white"
         >
           <rect width="80" height="10" rx="5" ry="5" x="10" y="20" />
           <rect width="80" height="10" rx="5" ry="5" x="10" y="40" />
@@ -54,7 +55,18 @@ export const SvgSelector = ({ id, className }) => {
       );
     case 'close':
       return (
-       'X'
+        <svg
+          width="55"
+          height="55"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="white"
+            d="M29.6667 12.88L27.7867 11L20.3333 18.4533L12.88 11L11 12.88L18.4533 20.3333L11 27.7867L12.88 29.6667L20.3333 22.2133L27.7867 29.6667L29.6667 27.7867L22.2133 20.3333L29.6667 12.88Z"
+          />
+        </svg>
       );
     case 'logo-min':
       return (
