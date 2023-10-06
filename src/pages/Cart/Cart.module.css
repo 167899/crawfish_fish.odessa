@@ -1,4 +1,29 @@
 .appButton {
-  color: rgb(200, 255, 0);
   width: 140px;
+}
+.cartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15vh;
+}
+.emptyCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ececec;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.emptyCart p {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.emptyCartLink {
+  display: inline-block;
+  text-decoration: none;
 }

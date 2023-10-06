@@ -7,7 +7,7 @@ const navItems = [
   { href: 'about-us', text: 'Про нас' },
   { href: 'contacts', text: 'Контакти' },
   { href: 'payment-delivery', text: 'Оплата та доставка' },
-  { href: 'cart', text: 'Корзина' },
+  { href: 'cart', text: 'Кошик' },
 ];
 
 export const NavItems = ({ onClick, addClassName }) => {
