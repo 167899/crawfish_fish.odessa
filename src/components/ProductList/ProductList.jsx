@@ -19,8 +19,7 @@ export const ProductList = ({ products, sectionName }) => {
             <div className={css.textBlock}>
               <h3> {product.name} </h3>
               <p>{product.detail}</p>
-              <p className={css.price}>{product.price} грн. за 100г
-              </p>
+              <p className={css.price}>{product.price} грн. за 100г</p>
               <Button name={'Замовити'} className={css.addBtn}></Button>
             </div>
           </li>

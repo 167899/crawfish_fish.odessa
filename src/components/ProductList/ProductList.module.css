@@ -1,4 +1,4 @@
-.products h2{
+.products h2 {
   margin-bottom: 35px;
 }
 .productList {
@@ -47,21 +47,20 @@
 .productList li a {
   text-decoration: none;
 }
-.productList li h3{
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
-margin-bottom: 4px;
+.productList li h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-bottom: 4px;
 }
 .productList li .price {
   color: #212121;
   margin-bottom: 15px;
   font-size: 16px;
-
 }
-.productList li p{
+.productList li p {
   font-size: 14px;
   line-height: 1.4;
   color: #757575;

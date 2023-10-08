@@ -1,8 +1,8 @@
 import { Button } from 'components/Button/Button';
-
 import css from './Cart.module.css';
 import { Link } from 'react-router-dom';
 import { SvgSelector } from 'components/Icons/Icons';
+
 export const Cart = () => {
   return (
     <div className={`'conteiner' ${css.cartContainer}`}>
