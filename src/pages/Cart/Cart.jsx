@@ -62,20 +62,42 @@ export const Cart = () => {
             ))}
           </ul>
 
-          <div className={css.buttonsBlock}>
-            <Link className={css.btnLinck} to={'/'}>
+          <form className={css.cartForm}>
+            <div className={css.userContact}>
+              <label className={css.cartLabel}>
+                <span className={css.cartText}>Ім'я</span>
+                <input type="text" className={css.cartInput} name="username" />
+              </label>
+              <label className={css.cartLabel}>
+                <span className={css.cartText}>Телефон</span>
+                <input type="tel" className={css.cartInput} name="tel" />
+              </label>
+            </div>
+
+            <label className={`${css.cartLabel} ${css.cartLabelComent}`}>
+              <span className={css.cartText}>Коментар до замовлення</span>
+              <textarea
+                className={css.cartComent}
+                name="coment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+
+            <div className={css.buttonsBlock}>
+              <Link className={css.btnLinck} to={'/'}>
+                <Button
+                  className={`${css.navigateButtonLeft} ${css.navigateButton}`}
+                  name={'Продовжити покупки'}
+                ></Button>
+              </Link>
+
               <Button
-                className={`${css.navigateButtonLeft} ${css.navigateButton}`}
-                name={'Продовжити покупки'}
-              ></Button>
-            </Link>
-            <Link className={css.btnLinck} to={'/cart'}>
-              <Button
+                type={'submit'}
                 className={css.navigateButton}
                 name={'Підтвердити замовлення'}
               ></Button>
-            </Link>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

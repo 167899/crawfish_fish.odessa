@@ -31,15 +31,13 @@ export const Contacts = () => {
           className={css.socialNetworksLink}
         >
           Instagram |
-        </a>
-{' '}
+        </a>{' '}
         <a
           href="https://www.facebook.com/profile.php?id=100075881057105"
           className={css.socialNetworksLink}
         >
           Facebook |
-        </a>
-{' '}
+        </a>{' '}
         <a
           href="invite.viber.com/?g2=AQB0RGxUcpvBs02WGJT6X%2FYCRk4e4pZ50b%2Bg1hgXzpfqkkXNiqDwCw94vqdMu00D"
           className={css.socialNetworksLink}
@@ -50,7 +48,6 @@ export const Contacts = () => {
       <p>
         Не соромтеся зателефонувати або написати нам, і ми з радістю вам
         допоможемо! Дякуємо, що обрали нас для своїх гастрономічних насолод!
-        
       </p>
     </div>
   );

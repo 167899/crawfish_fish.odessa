@@ -10,13 +10,12 @@
   }
 }
 .logoMinHeader {
-    width: 73px;
-    display: none;
-    @media screen and (min-width: 768px) {
-     display: initial;
-      }
+  width: 73px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: initial;
+  }
 }
 .logoMinFooter {
-    width: 147px;
+  width: 147px;
 }
-
