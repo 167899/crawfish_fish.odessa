@@ -101,3 +101,4 @@ export const products2 = [
       'https://sevrakoferma.ru/wp-content/uploads/2015/06/1272910107_raki2-e1435097525775.jpg',
   },
 ];
+

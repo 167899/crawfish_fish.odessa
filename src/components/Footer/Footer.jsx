@@ -13,38 +13,9 @@ export const Footer = () => {
               id={'logo-min'}
             ></SvgSelector>
           </Link>
+   
         </div>
-
-        <div className={css.socialNetworkBlock}>
-          <h2 className={css.footerTitle}>приєднатися</h2>
-          <ul className={css.socialNetworks}>
-            <li className={css.socialNetworksItem}>
-              <a
-                href="https://instagram.com/crawfish_fish.odessa?igshid=NzZlODBkYWE4Ng=="
-                className={css.socialNetworksLink}
-              >
-                <SvgSelector id={'instagram'}></SvgSelector>
-              </a>
-            </li>
-            <li className={css.socialNetworksItem}>
-              <a
-                href="https://www.facebook.com/profile.php?id=100075881057105"
-                className={css.socialNetworksLink}
-              >
-                <SvgSelector id={'facebook'}></SvgSelector>
-              </a>
-            </li>
-            <li className={css.socialNetworksItem}>
-              <a
-                href="invite.viber.com/?g2=AQB0RGxUcpvBs02WGJT6X%2FYCRk4e4pZ50b%2Bg1hgXzpfqkkXNiqDwCw94vqdMu00D"
-                className={css.socialNetworksLink}
-              >
-                <SvgSelector id={'viber'}></SvgSelector>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class={css.addressBlock}>
+<div className={css.addressBlock}>
           <address>
             <h3 className={css.addressTitle}>Контакти</h3>
             <ul className={css.address}>
