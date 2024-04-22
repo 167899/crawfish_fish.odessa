@@ -53,10 +53,12 @@ export const ProductList = ({
               ></Button>
             </div>
           </li>
-        )}
-      
-        return
+        )} else {
+          return
+        }
+      return;
       }
+   
         )}
       </ul>
       <Modal active={showModal} onClose={closeModal}></Modal>
