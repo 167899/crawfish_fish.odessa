@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { getProductList } from 'services/api';
 
 export const ProductList = ({ 
-  // categoryId,
+  categoryId,
   sectionName }) => {
   const [showModal, setShowModal] = useState(false);
   const [showProduct, setProduct] = useState([]);
@@ -30,7 +30,7 @@ export const ProductList = ({
     <section className={css.products}>
       <h2>{sectionName}</h2>
       <ul className={css.productList}>
-      {products.map(product => (
+      {products.map(product => product.active === 1 && product.categoryId === categoryId && (
           <li key={product.nomenclatureName}>
             <div className={css.imageConteiner}>
               <img
