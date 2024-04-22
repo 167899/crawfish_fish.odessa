@@ -30,7 +30,7 @@ export const ProductList = ({
     <section className={css.products}>
       <h2>{sectionName}</h2>
       <ul className={css.productList}>
-        {products.map(product => {
+        {/* {products.filter(product => {
           if(product.active === 1 && product.categoryId === categoryId) { 
             return(
           <li key={product.nomenclatureName}>
@@ -54,7 +54,7 @@ export const ProductList = ({
             </div>
           </li>
         )}}
-        )}
+        )} */}
       </ul>
       <Modal active={showModal} onClose={closeModal}></Modal>
     </section>
