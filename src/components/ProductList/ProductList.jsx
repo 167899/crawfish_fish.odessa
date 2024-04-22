@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { getProductList } from 'services/api';
 
 export const ProductList = ({ 
-  categoryId,
+  // categoryId,
   sectionName }) => {
   const [showModal, setShowModal] = useState(false);
   const [showProduct, setProduct] = useState([]);
@@ -30,7 +30,29 @@ export const ProductList = ({
     <section className={css.products}>
       <h2>{sectionName}</h2>
       <ul className={css.productList}>
-        {products.map(product => {
+      {products.map(product => (
+          <li key={product.nomenclatureName}>
+            <div className={css.imageConteiner}>
+              <img
+                width="100%"
+                height="auto"
+                src={`https://img-1.skyservice.pro/uploads/images/bb4f4a20-e572-41d5-90fb-69ed6e92c66d/${product.logo}`}
+                alt={product.nomenclatureName}
+              />
+            </div>
+            <div className={css.textBlock}>
+              <h3> {product.nomenclatureName} </h3>
+              <p>{product.uktzed}</p>
+              <p className={css.price}>{product.price} грн. за 100г</p>
+              <Button
+                name={'Замовити'}
+                className={css.addBtn}
+                onClick={onShowModal}
+              ></Button>
+            </div>
+          </li>
+        ))}
+        {/* {products.map(product => {
           if(product.active === 1 && product.categoryId === categoryId) { 
             return(
           <li key={product.nomenclatureName}>
@@ -53,13 +75,12 @@ export const ProductList = ({
               ></Button>
             </div>
           </li>
-        )} else {
-          return
-        }
-      return;
-      }
-   
         )}
+        }
+    
+      
+   
+        )} */}
       </ul>
       <Modal active={showModal} onClose={closeModal}></Modal>
     </section>
