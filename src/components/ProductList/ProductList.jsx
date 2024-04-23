@@ -3,7 +3,7 @@ import css from './ProductList.module.css';
 import { Modal } from 'components/Modal/Modal';
 import { useState, useEffect } from 'react';
 import { getProductList } from 'services/api';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { reset } from 'redux/counterSlice';
 
 export const ProductList = ({ categoryId, sectionName }) => {
