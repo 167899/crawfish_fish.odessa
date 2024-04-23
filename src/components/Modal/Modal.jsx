@@ -4,7 +4,7 @@ import css from './Modal.module.css';
 import { SvgSelector } from 'components/Icons/Icons';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { increment, decrement, reset } from 'redux/counterSlice';
+import { increment, decrement } from 'redux/counterSlice';
 
 export const Modal = ({ name, detail, image, price, active, onClose }) => {
   const dispatch = useDispatch();
