@@ -5,14 +5,14 @@
 .boorger {
   fill: #fff;
   width: 42px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     display: none;
   }
 }
 .logoMinHeader {
   width: 73px;
   display: none;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     display: initial;
   }
 }

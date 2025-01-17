@@ -3,14 +3,14 @@
   color: rgb(255, 255, 255);
   padding: 60px 0;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1250px) {
     text-align: center;
   }
 }
 .containerRevers {
   flex-direction: row;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     flex-direction: row-reverse;
   }
 }
@@ -20,7 +20,7 @@
   line-height: 1.14;
   font-style: normal;
   margin-bottom: 9px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     font-size: 18px;
     line-height: 1.14;
   }
@@ -32,8 +32,8 @@
 .addressBlock {
   font-size: 18px;
 
-  @media screen and (min-width: 1200px) {
-    width: 400px;
+  @media screen and (min-width: 1251px) {
+    width: 451px;
   }
 }
 
@@ -44,7 +44,7 @@
   &:last-child {
     margin-bottom: 0;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     font-size: 18px;
     line-height: 1.14;
   }
@@ -64,12 +64,12 @@
 }
 .socialNetworkBlock {
   margin-bottom: 60px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     width: 384px;
     margin-bottom: 60px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     text-align: center;
     width: 400px;
     margin: 0px;
@@ -120,13 +120,13 @@
   justify-content: center;
   margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     margin-bottom: 60px;
 
     width: 383px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     width: 400px;
     justify-content: flex-end;
     margin: 0px;

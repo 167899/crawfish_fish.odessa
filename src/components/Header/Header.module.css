@@ -1,7 +1,7 @@
 .header {
   background-color: #2f303a;
   box-shadow: 0 4px 10px hsl(200deg 3% 44% / 60%);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     padding-top: 7px;
   }
 }
@@ -11,7 +11,7 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     flex-direction: row;
   }
 }
@@ -22,7 +22,7 @@
 .logo {
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     display: block;
   }
 }
@@ -32,7 +32,7 @@
   flex-direction: column;
   align-items: flex-end;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     flex-direction: row-reverse;
     align-items: center;
   }
@@ -43,7 +43,7 @@
   padding: 0 10px;
   color: #fff;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     margin-bottom: 0;
   }
 }
@@ -61,11 +61,11 @@
   &:focus {
     color: #fff;
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     font-size: 16px;
     line-height: 1.6;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     font-size: 21px;
     line-height: 1.71;
   }
@@ -83,7 +83,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     display: none;
   }
 }

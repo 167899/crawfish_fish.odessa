@@ -26,14 +26,17 @@ export const ProductList = ({ categoryId, sectionName }) => {
           e.target.parentElement.parentElement.children[1].children[1]
             .textContent,
         price:
-        e.target.parentElement.parentElement.children[1].children[2].firstChild.textContent
+          e.target.parentElement.parentElement.children[1].children[2]
+          .textContent,  
+        // unit: 
+        // e.target.parentElement.parentElement.children[1].children[1]
+        //     .firstChild.textContent,
       });
-      
     }
   };
   const closeModal = () => {
     setShowModal(false);
-    dispatch(reset())
+    dispatch(reset());
   };
 
   const products = showProduct;
@@ -63,7 +66,7 @@ export const ProductList = ({ categoryId, sectionName }) => {
                   <h3> {product.nomenclatureName} </h3>
                   <p>{product.uktzed}</p>
                   <p className={css.price}>
-                   <span>{product.price}</span>  грн. за {product.unit}
+                    <span>{product.price}</span> грн. за {product.unit}
                   </p>
                   <Button
                     name={'Замовити'}
@@ -111,7 +114,8 @@ export const ProductList = ({ categoryId, sectionName }) => {
         name={showModalProps.name}
         detail={showModalProps.detail}
         price={showModalProps.price}
-      ></Modal>
+        unit={showModalProps.unit}
+        ></Modal>
     </section>
   );
 };

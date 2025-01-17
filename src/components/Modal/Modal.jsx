@@ -28,7 +28,8 @@ export const Modal = ({ name, detail, image, price, active, onClose }) => {
           <div className={css.productName}>
             <h3>{name}</h3>
             <p>{detail}</p>
-            <p>{price}</p>
+            <p>{price}
+             </p>
           </div>
           <div className={css.productButtonsBlock}>
             <div className={css.counterButtonsBlock}>
@@ -45,7 +46,7 @@ export const Modal = ({ name, detail, image, price, active, onClose }) => {
               ></Button>
             </div>
             <div className={css.priceBlock}>
-              {(Number({ price }.price) * Number({ value }.value)).toFixed(2)}
+              {(Number({ price }.price.replace(/\D/g, "")) * Number({ value }.value)).toFixed(2)}
               <span> грн.</span>
             </div>
             <Button

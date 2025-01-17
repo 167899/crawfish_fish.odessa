@@ -12,7 +12,7 @@
   padding: 0 0 94px 0;
   margin: 0 -15px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     justify-content: flex-start;
   }
 }
@@ -23,10 +23,10 @@
   width: 350px;
   border: 1px solid #eeeeee;
   transition: color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 818px) {
     width: 236px;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1251px) {
     width: 276px;
   }
 }
