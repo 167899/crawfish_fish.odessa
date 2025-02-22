@@ -15,7 +15,7 @@ export const Footer = () => {
           </Link>
         </div>
         <div className={css.socialNetworkBlock}>
-          <h2 className={css.footerTitle}>долучайтесь</h2>
+          <h2 className={css.footerTitle}>приєднуйтесь</h2>
           <ul className={css.socialNetworks}>
             <li className={css.socialNetworksItem}>
               <Link

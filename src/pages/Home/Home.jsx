@@ -26,10 +26,10 @@ export const Home = () => {
           categoryId={6}
           sectionName={'Морожені продукти'}
         ></ProductList>
-        <ProductList
+        {/* <ProductList
           categoryId={5}
           sectionName={'Пакування'}
-        ></ProductList>
+        ></ProductList> */}
         {/* <Modal name={name} detail={detail} image={image} price={price}></Modal> */}
       </div>
     </>

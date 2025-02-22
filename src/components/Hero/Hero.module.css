@@ -45,6 +45,7 @@
   width: 190px;
   height: 190px;
   border-radius: 50%;
+  box-shadow: 0px 0px 10px #607d8b33;
   background-color: aliceblue;
   position: absolute;
   left: 50%;
